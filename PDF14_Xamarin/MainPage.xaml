@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDF14_Xamarin.MainPage">
+
+    <StackLayout Spacing="10">
+        <Button Text="Iniciar"
+                x:Name="btnScan"
+                Clicked="btnScan_Clicked"/>
+        <Entry x:Name="txtBarcode"
+               Placeholder="Texto del scan"
+               Text="{Binding conBarras}"/>
+    </StackLayout>
+
+</ContentPage>
